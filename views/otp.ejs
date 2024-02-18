@@ -1,0 +1,26 @@
+<div class="row mt-5">
+    <div class="col-md-6 m-auto">
+      <div class="card card-body">
+        <h1 class="text-center mb-3"><i class="fas fa-sign-in-alt"></i>OTP Verification</h1>
+        <form action="/user/verify" method="POST">
+          <div class="form-group">
+            <label for="OTP">Enter Your OTP</label>
+            <input
+              type="text"
+              id="otp"
+              name="otp"
+              class="form-control"
+              placeholder="Enter OTP"
+              required
+            />
+          </div>
+          </div>
+          <!-- <button action= "verify" type="submit" class="btn btn-primary btn-block">Submit</button> -->
+          <form method="POST" action="send">
+            <p class="btn btn-primary btn-block">
+              <button type="submit">Submit</button>
+            </p>
+          </form>
+        </form>
+      </div>
+    </div>
